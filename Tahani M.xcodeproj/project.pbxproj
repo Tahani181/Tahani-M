@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF8201472CC530EB00E04208 /* Tahani_MApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8201462CC530EB00E04208 /* Tahani_MApp.swift */; };
+		CF8201492CC530EB00E04208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8201482CC530EB00E04208 /* ContentView.swift */; };
+		CF82014B2CC530EC00E04208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF82014A2CC530EC00E04208 /* Assets.xcassets */; };
+		CF82014E2CC530EC00E04208 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF82014D2CC530EC00E04208 /* Preview Assets.xcassets */; };
+		CF8201582CC530EC00E04208 /* Tahani_MTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8201572CC530EC00E04208 /* Tahani_MTests.swift */; };
+		CF8201622CC530ED00E04208 /* Tahani_MUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8201612CC530ED00E04208 /* Tahani_MUITests.swift */; };
+		CF8201642CC530ED00E04208 /* Tahani_MUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8201632CC530ED00E04208 /* Tahani_MUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF8201542CC530EC00E04208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF82013B2CC530EB00E04208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF8201422CC530EB00E04208;
+			remoteInfo = "Tahani M";
+		};
+		CF82015E2CC530ED00E04208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF82013B2CC530EB00E04208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF8201422CC530EB00E04208;
+			remoteInfo = "Tahani M";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF8201432CC530EB00E04208 /* Tahani M.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tahani M.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8201462CC530EB00E04208 /* Tahani_MApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tahani_MApp.swift; sourceTree = "<group>"; };
+		CF8201482CC530EB00E04208 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF82014A2CC530EC00E04208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF82014D2CC530EC00E04208 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF8201532CC530EC00E04208 /* Tahani MTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tahani MTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8201572CC530EC00E04208 /* Tahani_MTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tahani_MTests.swift; sourceTree = "<group>"; };
+		CF82015D2CC530ED00E04208 /* Tahani MUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tahani MUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8201612CC530ED00E04208 /* Tahani_MUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tahani_MUITests.swift; sourceTree = "<group>"; };
+		CF8201632CC530ED00E04208 /* Tahani_MUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tahani_MUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF8201402CC530EB00E04208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8201502CC530EC00E04208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF82015A2CC530ED00E04208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF82013A2CC530EB00E04208 = {
+			isa = PBXGroup;
+			children = (
+				CF8201452CC530EB00E04208 /* Tahani M */,
+				CF8201562CC530EC00E04208 /* Tahani MTests */,
+				CF8201602CC530ED00E04208 /* Tahani MUITests */,
+				CF8201442CC530EB00E04208 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8201442CC530EB00E04208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF8201432CC530EB00E04208 /* Tahani M.app */,
+				CF8201532CC530EC00E04208 /* Tahani MTests.xctest */,
+				CF82015D2CC530ED00E04208 /* Tahani MUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF8201452CC530EB00E04208 /* Tahani M */ = {
+			isa = PBXGroup;
+			children = (
+				CF8201462CC530EB00E04208 /* Tahani_MApp.swift */,
+				CF8201482CC530EB00E04208 /* ContentView.swift */,
+				CF82014A2CC530EC00E04208 /* Assets.xcassets */,
+				CF82014C2CC530EC00E04208 /* Preview Content */,
+			);
+			path = "Tahani M";
+			sourceTree = "<group>";
+		};
+		CF82014C2CC530EC00E04208 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF82014D2CC530EC00E04208 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF8201562CC530EC00E04208 /* Tahani MTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF8201572CC530EC00E04208 /* Tahani_MTests.swift */,
+			);
+			path = "Tahani MTests";
+			sourceTree = "<group>";
+		};
+		CF8201602CC530ED00E04208 /* Tahani MUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF8201612CC530ED00E04208 /* Tahani_MUITests.swift */,
+				CF8201632CC530ED00E04208 /* Tahani_MUITestsLaunchTests.swift */,
+			);
+			path = "Tahani MUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF8201422CC530EB00E04208 /* Tahani M */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8201672CC530ED00E04208 /* Build configuration list for PBXNativeTarget "Tahani M" */;
+			buildPhases = (
+				CF82013F2CC530EB00E04208 /* Sources */,
+				CF8201402CC530EB00E04208 /* Frameworks */,
+				CF8201412CC530EB00E04208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tahani M";
+			productName = "Tahani M";
+			productReference = CF8201432CC530EB00E04208 /* Tahani M.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF8201522CC530EC00E04208 /* Tahani MTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF82016A2CC530ED00E04208 /* Build configuration list for PBXNativeTarget "Tahani MTests" */;
+			buildPhases = (
+				CF82014F2CC530EC00E04208 /* Sources */,
+				CF8201502CC530EC00E04208 /* Frameworks */,
+				CF8201512CC530EC00E04208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF8201552CC530EC00E04208 /* PBXTargetDependency */,
+			);
+			name = "Tahani MTests";
+			productName = "Tahani MTests";
+			productReference = CF8201532CC530EC00E04208 /* Tahani MTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF82015C2CC530ED00E04208 /* Tahani MUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF82016D2CC530ED00E04208 /* Build configuration list for PBXNativeTarget "Tahani MUITests" */;
+			buildPhases = (
+				CF8201592CC530ED00E04208 /* Sources */,
+				CF82015A2CC530ED00E04208 /* Frameworks */,
+				CF82015B2CC530ED00E04208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF82015F2CC530ED00E04208 /* PBXTargetDependency */,
+			);
+			name = "Tahani MUITests";
+			productName = "Tahani MUITests";
+			productReference = CF82015D2CC530ED00E04208 /* Tahani MUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF82013B2CC530EB00E04208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CF8201422CC530EB00E04208 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CF8201522CC530EC00E04208 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CF8201422CC530EB00E04208;
+					};
+					CF82015C2CC530ED00E04208 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CF8201422CC530EB00E04208;
+					};
+				};
+			};
+			buildConfigurationList = CF82013E2CC530EB00E04208 /* Build configuration list for PBXProject "Tahani M" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF82013A2CC530EB00E04208;
+			productRefGroup = CF8201442CC530EB00E04208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF8201422CC530EB00E04208 /* Tahani M */,
+				CF8201522CC530EC00E04208 /* Tahani MTests */,
+				CF82015C2CC530ED00E04208 /* Tahani MUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF8201412CC530EB00E04208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF82014E2CC530EC00E04208 /* Preview Assets.xcassets in Resources */,
+				CF82014B2CC530EC00E04208 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8201512CC530EC00E04208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF82015B2CC530ED00E04208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF82013F2CC530EB00E04208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8201492CC530EB00E04208 /* ContentView.swift in Sources */,
+				CF8201472CC530EB00E04208 /* Tahani_MApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF82014F2CC530EC00E04208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8201582CC530EC00E04208 /* Tahani_MTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8201592CC530ED00E04208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8201642CC530ED00E04208 /* Tahani_MUITestsLaunchTests.swift in Sources */,
+				CF8201622CC530ED00E04208 /* Tahani_MUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF8201552CC530EC00E04208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF8201422CC530EB00E04208 /* Tahani M */;
+			targetProxy = CF8201542CC530EC00E04208 /* PBXContainerItemProxy */;
+		};
+		CF82015F2CC530ED00E04208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF8201422CC530EB00E04208 /* Tahani M */;
+			targetProxy = CF82015E2CC530ED00E04208 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF8201652CC530ED00E04208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF8201662CC530ED00E04208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF8201682CC530ED00E04208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tahani M/Preview Content\"";
+				DEVELOPMENT_TEAM = PW726KA4D6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tahani.Tahani-M";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF8201692CC530ED00E04208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tahani M/Preview Content\"";
+				DEVELOPMENT_TEAM = PW726KA4D6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tahani.Tahani-M";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF82016B2CC530ED00E04208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PW726KA4D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tahani.Tahani-MTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tahani M.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tahani M";
+			};
+			name = Debug;
+		};
+		CF82016C2CC530ED00E04208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PW726KA4D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tahani.Tahani-MTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tahani M.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tahani M";
+			};
+			name = Release;
+		};
+		CF82016E2CC530ED00E04208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PW726KA4D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tahani.Tahani-MUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tahani M";
+			};
+			name = Debug;
+		};
+		CF82016F2CC530ED00E04208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PW726KA4D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tahani.Tahani-MUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tahani M";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF82013E2CC530EB00E04208 /* Build configuration list for PBXProject "Tahani M" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8201652CC530ED00E04208 /* Debug */,
+				CF8201662CC530ED00E04208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8201672CC530ED00E04208 /* Build configuration list for PBXNativeTarget "Tahani M" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8201682CC530ED00E04208 /* Debug */,
+				CF8201692CC530ED00E04208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF82016A2CC530ED00E04208 /* Build configuration list for PBXNativeTarget "Tahani MTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF82016B2CC530ED00E04208 /* Debug */,
+				CF82016C2CC530ED00E04208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF82016D2CC530ED00E04208 /* Build configuration list for PBXNativeTarget "Tahani MUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF82016E2CC530ED00E04208 /* Debug */,
+				CF82016F2CC530ED00E04208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF82013B2CC530EB00E04208 /* Project object */;
+}
