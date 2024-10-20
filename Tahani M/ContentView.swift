@@ -9,13 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello,HI world!")
+        ZStack{
+            Color("Color1")// تعيين اللون الأسود كخلفية
+                .ignoresSafeArea() // لتغطية الشاشة بالكامل
+            VStack {
+                Image("W")
+                    .resizable()
+                    .frame(width: 100, height: 130) // تحديد عرض وارتفاع الصورة
+                Text("Journali")
+                    .font(.largeTitle) // تعيين حجم الخط إلى كبير
+                    .fontWeight(.bold) // جعل الخط عريضًا (اختياري)
+                    .padding(30) // إضافة هوامش حول النص
+                    .foregroundColor(.white)
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
